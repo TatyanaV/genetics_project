@@ -1,0 +1,64 @@
+	$("#combo-box2").html("  &#x25BE;");
+	$("#combo-box2").css('position', 'absolute');
+	//$("#combo-box2").css('top',  100+(malesArray[0].drawY + 1.32*malesArray[0].height)); //or wherever you want it
+	$("#combo-box2").css('top',  DROP_DOWN_TOP_POSITION_ADJUSTMENT*((CANVAS_TOP_POSITION-20)+(malesArray[0].drawY + 1.32*malesArray[0].height))); //or wherever you want it
+	$("#combo-box2").css('left', DROP_DOWN_LEFT_POSITION_ADJUSTMENT*(CANVAS_LEFT_POSITION+ 0.98*(malesArray[0].drawX +malesArray[0].width-malesArray[0].width/20 +10))); //or wherever you want it
+	$("#combo-box2").css('z-index', 2); //or wherever you want it
+	//dropdown menu for id #1
+	$("#combo-box1").html("  &#x25BE;");
+	//test box for ID 1
+	//$(document).ready(function() {
+	$("#combo-box1").css('position', 'absolute');
+	//this.drawX +this.width-this.width/20 +10, this.drawY + 1.32*this.height
+	$("#combo-box1").css('top',  DROP_DOWN_TOP_POSITION_ADJUSTMENT*((CANVAS_TOP_POSITION - 20)+(femaleArray[0].drawY + 1.32*femaleArray[0].height))); //or wherever you want it
+	$("#combo-box1").css('left', DROP_DOWN_LEFT_POSITION_ADJUSTMENT*(CANVAS_LEFT_POSITION+ 0.98*(femaleArray[0].drawX +femaleArray[0].width-femaleArray[0].width/20 +10))); //or wherever you want it
+	$("#combo-box1").css('z-index', 2); //or wherever you want it
+	
+	$("#combo-box4").html("  &#x25BE;");
+	$("#combo-box4").css('position', 'absolute');
+	$("#combo-box4").css('top',  DROP_DOWN_TOP_POSITION_ADJUSTMENT*(CANVAS_TOP_POSITION-22*(1+DROP_DOWN_TOP_POSITION_ADJUSTMENT)+(malesArray[1].drawY + 1.32*malesArray[1].height))); //or wherever you want it
+	$("#combo-box4").css('left', DROP_DOWN_LEFT_POSITION_ADJUSTMENT*(CANVAS_LEFT_POSITION+ 0.99*(malesArray[1].drawX +malesArray[1].width-malesArray[1].width/20 +10))); //or wherever you want it
+	$("#combo-box4").css('z-index', 2); //or wherever you want it
+	
+	$("#combo-box3").html("  &#x25BE;");
+	$("#combo-box3").css('position', 'absolute');
+	$("#combo-box3").css('top',  DROP_DOWN_TOP_POSITION_ADJUSTMENT*(CANVAS_TOP_POSITION - 22*(1+DROP_DOWN_TOP_POSITION_ADJUSTMENT)+(femaleArray[1].drawY + 1.32*femaleArray[1].height))); //or wherever you want it
+	$("#combo-box3").css('left', DROP_DOWN_LEFT_POSITION_ADJUSTMENT*(CANVAS_LEFT_POSITION+ 0.98*(femaleArray[1].drawX +femaleArray[1].width-femaleArray[1].width/20 +10))); //or wherever you want it
+	$("#combo-box3").css('z-index', 2); //or wherever you want it
+	
+	$("#combo-box6").html("  &#x25BE;");
+	$("#combo-box6").css('position', 'absolute');
+	$("#combo-box6").css('top',  DROP_DOWN_TOP_POSITION_ADJUSTMENT*(CANVAS_TOP_POSITION-22*(2+DROP_DOWN_TOP_POSITION_ADJUSTMENT)+(malesArray[2].drawY + 1.32*malesArray[2].height))); //or wherever you want it
+	$("#combo-box6").css('left', DROP_DOWN_LEFT_POSITION_ADJUSTMENT*(CANVAS_LEFT_POSITION+ 1.01*(malesArray[2].drawX +malesArray[2].width-malesArray[2].width/20 +10))); //or wherever you want it
+	$("#combo-box6").css('z-index', 2); //or wherever you want it
+	
+	$("#combo-box5").html("  &#x25BE;");
+	$("#combo-box5").css('position', 'absolute');
+	$("#combo-box5").css('top',  DROP_DOWN_TOP_POSITION_ADJUSTMENT*(CANVAS_TOP_POSITION - 22*(2+DROP_DOWN_TOP_POSITION_ADJUSTMENT)+(femaleArray[2].drawY + 1.32*femaleArray[2].height))); //or wherever you want it
+	$("#combo-box5").css('left', DROP_DOWN_LEFT_POSITION_ADJUSTMENT*(CANVAS_LEFT_POSITION+ 0.98*(femaleArray[2].drawX +femaleArray[2].width-femaleArray[2].width/20 +10))); //or wherever you want it
+	$("#combo-box5").css('z-index', 2); //or wherever you want it
+	
+	$("#combo-box7").html("  &#x25BE;");
+	$("#combo-box7").css('position', 'absolute');
+	$("#combo-box7").css('top',  DROP_DOWN_TOP_POSITION_ADJUSTMENT*(CANVAS_TOP_POSITION - 22*(2+DROP_DOWN_TOP_POSITION_ADJUSTMENT)+(malesArray[3].drawY + 1.32*malesArray[3].height))); //or wherever you want it
+	$("#combo-box7").css('left', DROP_DOWN_LEFT_POSITION_ADJUSTMENT*(CANVAS_LEFT_POSITION+ 0.98*(malesArray[3].drawX +malesArray[3].width-malesArray[3].width/20 +10))); //or wherever you want it
+	$("#combo-box7").css('z-index', 2); //or wherever you want it
+	
+	$("#combo-box8").html("  &#x25BE;");
+	$("#combo-box8").css('position', 'absolute');
+	$("#combo-box8").css('top',  DROP_DOWN_TOP_POSITION_ADJUSTMENT*(CANVAS_TOP_POSITION - 22*(2+DROP_DOWN_TOP_POSITION_ADJUSTMENT)+(malesArray[4].drawY + 1.32*malesArray[4].height))); //or wherever you want it
+	$("#combo-box8").css('left', DROP_DOWN_LEFT_POSITION_ADJUSTMENT*(CANVAS_LEFT_POSITION+ 0.98*(malesArray[4].drawX +malesArray[4].width-malesArray[4].width/20 +10))); //or wherever you want it
+	$("#combo-box8").css('z-index', 2); //or wherever you want it
+	
+	$("#combo-box9").html("  &#x25BE;");
+	$("#combo-box9").css('position', 'absolute');
+	$("#combo-box9").css('top',  DROP_DOWN_TOP_POSITION_ADJUSTMENT*(CANVAS_TOP_POSITION - 22*(3+DROP_DOWN_TOP_POSITION_ADJUSTMENT)+(malesArray[5].drawY + 1.32*malesArray[5].height))); //or wherever you want it
+	$("#combo-box9").css('left', DROP_DOWN_LEFT_POSITION_ADJUSTMENT*(CANVAS_LEFT_POSITION+ 0.98*(malesArray[5].drawX +malesArray[5].width-malesArray[5].width/20 +10))); //or wherever you want it
+	$("#combo-box9").css('z-index', 2); //or wherever you want it
+	
+	
+	$("#combo-box10").html("  &#x25BE;");
+	$("#combo-box10").css('position', 'absolute');
+	$("#combo-box10").css('top',  DROP_DOWN_TOP_POSITION_ADJUSTMENT*(CANVAS_TOP_POSITION - 20*(3+DROP_DOWN_TOP_POSITION_ADJUSTMENT)+(femaleArray[3].drawY + 1.32*femaleArray[3].height))); //or wherever you want it
+	$("#combo-box10").css('left', DROP_DOWN_LEFT_POSITION_ADJUSTMENT*(CANVAS_LEFT_POSITION+ 0.98*(femaleArray[3].drawX +femaleArray[3].width-femaleArray[3].width/20 +10))); //or wherever you want it
+	$("#combo-box10").css('z-index', 2); //or wherever you want it
